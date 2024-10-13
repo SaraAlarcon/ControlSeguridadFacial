@@ -35,12 +35,12 @@
             this.Btnguardar = new System.Windows.Forms.Button();
             this.BtncapturarImagen = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -48,7 +48,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(211, 114);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(317, 41);
             this.textBox1.TabIndex = 0;
@@ -57,7 +57,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(211, 191);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(317, 41);
             this.textBox2.TabIndex = 1;
@@ -65,7 +65,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(211, 261);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(317, 41);
             this.textBox3.TabIndex = 2;
@@ -74,7 +74,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(211, 341);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(317, 41);
             this.textBox4.TabIndex = 3;
@@ -84,7 +84,7 @@
             this.Btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btnguardar.ForeColor = System.Drawing.Color.Black;
             this.Btnguardar.Location = new System.Drawing.Point(211, 467);
-            this.Btnguardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btnguardar.Margin = new System.Windows.Forms.Padding(4);
             this.Btnguardar.Name = "Btnguardar";
             this.Btnguardar.Size = new System.Drawing.Size(116, 32);
             this.Btnguardar.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             this.BtncapturarImagen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtncapturarImagen.Location = new System.Drawing.Point(863, 456);
-            this.BtncapturarImagen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtncapturarImagen.Margin = new System.Windows.Forms.Padding(4);
             this.BtncapturarImagen.Name = "BtncapturarImagen";
             this.BtncapturarImagen.Size = new System.Drawing.Size(231, 43);
             this.BtncapturarImagen.TabIndex = 5;
@@ -119,14 +119,24 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.groupBox1.Location = new System.Drawing.Point(13, 67);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1288, 646);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Personales";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(780, 88);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(381, 360);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label4
             // 
@@ -186,16 +196,6 @@
             this.label5.Text = "Sistema de seguridad facial\r\n";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(778, 79);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(381, 360);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -205,7 +205,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "registro";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.registro_Load);
