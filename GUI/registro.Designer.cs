@@ -94,7 +94,7 @@
             // BtncapturarImagen
             // 
             this.BtncapturarImagen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtncapturarImagen.Location = new System.Drawing.Point(863, 456);
+            this.BtncapturarImagen.Location = new System.Drawing.Point(857, 462);
             this.BtncapturarImagen.Margin = new System.Windows.Forms.Padding(4);
             this.BtncapturarImagen.Name = "BtncapturarImagen";
             this.BtncapturarImagen.Size = new System.Drawing.Size(231, 43);
